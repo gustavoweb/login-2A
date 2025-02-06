@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 100%;
+  height: 100vh;
+  background: rgb(114, 174, 246);
+  background: linear-gradient(
+    180deg,
+    rgba(114, 174, 246, 1) 0%,
+    rgba(5, 107, 230, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo-cloud {
+  width: 30%;
+  height: auto;
+}
+main h2 {
+  width: 100%;
+  float: left;
+  display: block;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
